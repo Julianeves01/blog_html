@@ -9,10 +9,44 @@
 
 body {
   font-family: "PT Serif", sans-serif;
-  background-color: #e40d7190;
+  background-color: #e40d717e;
 }
 
 header {
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
+    height: 150px;
+    background-color:rgba(235, 234, 234);
+    color: #e40d717e;
+    align-items: center;
+    
 }
+
+#logo-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#links a {
+    text-decoration: none;
+    color: #e40d717e;
+    font-size: 1.2rem;
+    border-bottom: 3px solid transparent;
+    border-radius: 6px;
+    transition: 0.4s ease-in-out;
+}
+
+#link a:hover {
+    border-bottom: 3px solid #d5116c7e;
+    color: #d5116c7e;
+    transform: scale(1.05);
+}
+

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sedan:ital@0;1&display=swap");
 
 * {
   margin: 0;
@@ -9,13 +8,12 @@
 
 body {
   font-family: "PT Serif", sans-serif;
-  background-color: #e40d717e;
+  background-color: rgba(235, 234, 234);
 }
 
 header {
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
     height: 150px;
     background-color:rgba(235, 234, 234);
     color: #e40d717e;
@@ -41,12 +39,45 @@ header {
     font-size: 1.2rem;
     border-bottom: 3px solid transparent;
     border-radius: 6px;
-    transition: 0.4s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 #links a:hover {
     border-bottom: 3px solid #d5116c7e;
     color: #d5116c7e;
-    transform:scale(1.05);
+    transform:scale(1.1);
 }
 
+#carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgb(255, 154, 206);
+}
+
+#carousel img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#main-new {
+    width: 70%;
+    background-color:rgb(219, 215, 215);
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#aside {
+    width: 28%;
+    background-color: rgb(219, 215, 215);
+    margin: 20px;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
